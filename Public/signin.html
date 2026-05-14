@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <div class="left-panel">
+        <h1 class="welcome-text1">WELCOME BACK TO</h1>
+        <h1 class="welcome-text delay1">HERBISIGHT</h1>
+    </div>
+
+    <div class="right-panel">
+        <h2 class="form-title">SIGN IN HERE</h2>
+
+        <form class="signin-form" id="signin-form">
+            <div class="form-group">
+                <label for="email">EMAIL ADDRESS*</label>
+                <input type="email" id="email" placeholder="Enter your email">
+                <small class="error-message"></small>
+            </div>
+
+            <div class="form-group">
+                <label for="password">PASSWORD*</label>
+                <input type="password" id="password" placeholder="Enter your password">
+                <small class="error-message"></small>
+            </div>
+
+            <button type="submit" class="signin-btn">SIGN IN</button>
+
+            <div class="form-links">
+                <p><a href="forgotpassword.html">FORGOT PASSWORD?</a></p>
+                <p>DON’T HAVE AN ACCOUNT? <a href="signup.html">CLICK HERE</a></p>
+            </div>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>

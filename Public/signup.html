@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <div class="left-panel">
+        <h1 class="welcome-text">WELCOME TO</h1>
+        <h1 class="welcome-text delay">HERBISIGHT</h1>
+    </div>
+
+    <div class="right-panel">
+        <h2 class="form-title">SIGN UP HERE</h2>
+
+        <form class="signup-form" id="signup-form">
+            <div class="form-group">
+                <label for="full-name">FULL NAME*</label>
+                <input type="text" id="full-name" placeholder="Example: JOHN SMITH">
+                <small class="error-message"></small>
+            </div>
+
+            <div class="form-group">
+                <label for="phone-number">PHONE NUMBER*</label>
+                <input type="tel" id="phone-number" placeholder="Example: 9874561239">
+                <small class="error-message"></small>
+            </div>
+
+            <div class="form-group">
+                <label for="email">EMAIL ADDRESS*</label>
+                <input type="email" id="email" placeholder="Example: johnsmith@email.com">
+                <small class="error-message"></small>
+            </div>
+
+            <div class="form-group">
+                <label for="password">PASSWORD*</label>
+                <input type="password" id="password" placeholder="Enter your password">
+                <small class="error-message"></small>
+            </div>
+
+            <div class="form-group">
+                <label for="confirm-password">CONFIRM PASSWORD*</label>
+                <input type="password" id="confirm-password" placeholder="Re-enter your password">
+                <small class="error-message"></small>
+            </div>
+
+            <div class="terms-group">
+                <input type="checkbox" id="terms">
+                <label for="terms">ACCEPT OUR TERMS AND CONDITIONS</label>
+                <small class="error-message"></small>
+            </div>
+
+            <button type="submit" class="signup-btn">SIGN UP</button>
+
+            <p class="already-have">ALREADY HAVE AN ACCOUNT? <a href="signin.html">CLICK HERE</a></p>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
